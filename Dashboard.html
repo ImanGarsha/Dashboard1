@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Management Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        .card p {
+            font-size: 18px;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Company Management Dashboard</h1>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <!-- Financial Metrics -->
+            <div class="card">
+                <h2>Revenue</h2>
+                <p>$1,200,000</p>
+            </div>
+            <div class="card">
+                <h2>Profit Margin</h2>
+                <p>25%</p>
+            </div>
+
+            <!-- HR Metrics -->
+            <div class="card">
+                <h2>Employee Turnover</h2>
+                <p>12%</p>
+            </div>
+            <div class="card">
+                <h2>Headcount</h2>
+                <p>150</p>
+            </div>
+
+            <!-- Customer Metrics -->
+            <div class="card">
+                <h2>Customer Retention</h2>
+                <p>90%</p>
+            </div>
+            <div class="card">
+                <h2>Net Promoter Score</h2>
+                <p>8.5</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Company Name. All Rights Reserved.
+    </footer>
+</body>
+</html>
